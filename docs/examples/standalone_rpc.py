@@ -1,5 +1,6 @@
 from nameko.standalone.rpc import ClusterRpcProxy
 
+
 config = {
     'AMQP_URI': 'amqp://guest:guest@localhost'
 }

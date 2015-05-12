@@ -1,11 +1,14 @@
 from nameko.runners import ServiceRunner
 from nameko.testing.utils import get_container
 
+
 class ServiceA(object):
     name = "service_a"
 
+
 class ServiceB(object):
     name = "service_b"
+
 
 # create a runner for ServiceA and ServiceB
 runner = ServiceRunner(config={})

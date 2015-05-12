@@ -5,7 +5,7 @@
 # importing anything before the patch is applied.
 # See http://eventlet.net/doc/patching.html#monkeypatching-the-standard-library
 import eventlet
-eventlet.monkey_patch()
+eventlet.monkey_patch()  # NOQA
 
 from urlparse import urlparse
 

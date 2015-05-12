@@ -5,7 +5,7 @@
 test: flake8 pylint pytest
 
 flake8:
-	flake8 nameko test
+	flake8 nameko test docs/examples
 
 pylint:
 	pylint nameko -E

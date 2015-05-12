@@ -1,7 +1,8 @@
 from nameko.timer import timer
 
+
 class Service(object):
-    name ="service"
+    name = "service"
 
     @timer(interval=5)
     def ping(self):

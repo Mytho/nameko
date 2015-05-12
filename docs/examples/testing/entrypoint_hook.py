@@ -5,6 +5,7 @@ from nameko.contextdata import Language
 from nameko.rpc import rpc
 from nameko.testing.services import entrypoint_hook
 
+
 class HelloService(object):
     """ Service under test
     """

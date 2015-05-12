@@ -3,6 +3,7 @@
 import json
 from nameko.web.handlers import http
 
+
 class HttpService(object):
     name = "http_service"
 

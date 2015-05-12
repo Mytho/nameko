@@ -1,3 +1,9 @@
+from nameko.standalone.rpc import ClusterRpcProxy
+
+config = {
+    'AMQP_URI': 'amqp://guest:guest@localhost'
+}
+
 with ClusterRpcProxy(config) as cluster_rpc:
     hello_res = cluster_rpc.service_x.remote_method.async("hello")
     world_res = cluster_rpc.service_x.remote_method.async("world")

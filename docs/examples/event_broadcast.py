@@ -1,5 +1,6 @@
 from nameko.events import BROADCAST, event_handler
 
+
 class ListenerService(object):
     name = "listener"
 

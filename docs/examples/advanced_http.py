@@ -3,6 +3,7 @@
 from nameko.web.handlers import http
 from werkzeug.wrappers import Response
 
+
 class Service(object):
     name = "advanced_http_service"
 

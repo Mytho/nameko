@@ -1,5 +1,6 @@
 from nameko.rpc import rpc
 
+
 class GreetingService(object):
     name = "greeting_service"
 

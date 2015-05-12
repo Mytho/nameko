@@ -5,6 +5,7 @@ import requests
 from nameko.extensions import DependencyProvider
 from nameko.rpc import rpc
 
+
 API_ENDPOINT = "https://api.travis-ci.org/"
 
 
